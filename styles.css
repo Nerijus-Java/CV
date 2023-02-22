@@ -34,7 +34,6 @@ body {
   /* border-radius: 150px; */
   /* padding: 15px; */
   border-bottom: 2px solid #ffffff;
-
 }
 
 .right {
@@ -52,8 +51,8 @@ body {
   color: #fff;
 }
 .bold {
-    font-size: 20px;
-    text-transform: uppercase;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .line {
@@ -62,61 +61,64 @@ body {
 }
 
 .icon {
-    width: 35px;
-    height: 35px;
-    background: #0088A3;
-    color: #5BCAD5;
-    border-radius: 50%;
-    margin-right: 15px;
-    font-size: 16px;
-    position: relative;
+  width: 35px;
+  height: 35px;
+  background: #0088a3;
+  color: #5bcad5;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
 }
 
 .icon i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.left ul li{
-    display: flex;
-    margin-bottom: 10px;
-    align-items: center;
+.left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
 }
 
 .data {
-    font-size: 12px;
-    color: #ffffff;
+  font-size: 12px;
+  color: #ffffff;
 }
 
-
-
-.list_bar ul li{
-    display: flex;
-    margin-bottom: 10px;
-    color: #b1eaff;
-    justify-content: space-between;
-    align-items: center;
+.list_bar ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #b1eaff;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .list_bar_name {
-    width: 25%;
-    color: white;
+  width: 25%;
+  color: white;
 }
 
 .list_bar_progress {
-    width: 60%;
-    margin: 0 5px;
-    height: 5px;
-    background: #0088A3;
-    position: relative;
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #0088a3;
+  position: relative;
 }
 
-.list_bar_progress span{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #5BCAD5;
+.list_bar_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #5bcad5;
+}
+
+.right_background {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
 }
