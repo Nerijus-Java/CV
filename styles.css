@@ -45,14 +45,14 @@ body {
   color: #fff;
 }
 .bold {
-    font-weight: 700;
-    font-size: 20px;
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .line {
   padding: 25px 0;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #5BCAD5;
 }
 
 .icon {
@@ -114,20 +114,41 @@ body {
 }
 
 .right {
-    width: 520px;
-    background: #fff;
-    padding: 25px;
-  }
-  
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
 .right_background {
   background-color: #ffffff;
   background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
 }
 
-.right .bold {
-    color: #022946;
+.right .line {
+    margin-bottom: 20px;
 }
 
-.right p {
-    font-size: 17px;
+.right .bold {
+  font-size: 25px;
+  color: #0088A3;
+  text-align: center;
+}
+
+.date_hours {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.info {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.info_title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.topmargin {
+    margin-top: 20px;
 }
