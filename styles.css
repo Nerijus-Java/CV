@@ -36,12 +36,6 @@ body {
   border-bottom: 2px solid #ffffff;
 }
 
-.right {
-  width: 520px;
-  background: #fff;
-  padding: 25px;
-}
-
 .content {
   padding: 0 25px;
 }
@@ -51,8 +45,9 @@ body {
   color: #fff;
 }
 .bold {
-  font-size: 20px;
-  text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .line {
@@ -118,7 +113,21 @@ body {
   background: #5bcad5;
 }
 
+.right {
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+  }
+  
 .right_background {
   background-color: #ffffff;
   background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+}
+
+.right .bold {
+    color: #022946;
+}
+
+.right p {
+    font-size: 17px;
 }
