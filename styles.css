@@ -89,3 +89,34 @@ body {
     font-size: 12px;
     color: #ffffff;
 }
+
+
+
+.list_bar ul li{
+    display: flex;
+    margin-bottom: 10px;
+    color: #b1eaff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_bar_name {
+    width: 25%;
+    color: white;
+}
+
+.list_bar_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #0088A3;
+    position: relative;
+}
+
+.list_bar_progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #5BCAD5;
+}
